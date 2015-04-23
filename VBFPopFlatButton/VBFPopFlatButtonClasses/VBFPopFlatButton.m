@@ -57,6 +57,7 @@
 }
 
 - (void) commonSetup {
+    self.isRaised = NO;
     _firstSegment = [[VBFDoubleSegment alloc]initWithLength:self.frame.size.width
                                                   thickness:self.lineThickness
                                                      radius:self.lineRadius

@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+// Pods:
+#import <BFPaperButton/BFPaperButton.h>
 
-@interface VBFPopFlatButton : UIButton
+
+@interface VBFPopFlatButton : BFPaperButton
 
 typedef NS_ENUM(NSInteger, FlatButtonType) {
     buttonDefaultType,             // Vertical line
